@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryption</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="navbar">
+        <li> <a href="/encrypted.html">Encrypt</a></li>
+        <li> <a href="/decrypt.html">Decrypt</a><li>
+        <li><a href="/log.html">Logout</a></li>
+        <li class="about"> <a href="">About</a></li>
+    </section>
+    <section class="all">
+
+    <div class="container">
+        <h1> Encryption  your data savely</h1>
+        <textarea id="inputText" placeholder="Enter your text here"></textarea>
+        <button onclick="encryptText()">Encrypt</button>
+        <h2>Encrypted Text</h2>
+        <textarea id="encryptedText" readonly></textarea>
+        <br>
+        <a href="decrypt.html">Go to Decryption Page</a>
+    </div>
+
+
+    </section>
+    <script src="/js/en.js"></script>
+</body>
+</html>
